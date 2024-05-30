@@ -17,7 +17,8 @@ public class Reverse_Sentence_word {
 	}
 	public static void main(String[] args) {
 		
-     String str="I love Hardwork";
+          String str="I love Hardwork";
+		//String str=" love ";
      System.out.println( reverseSentenceWord(str));
 	}
 

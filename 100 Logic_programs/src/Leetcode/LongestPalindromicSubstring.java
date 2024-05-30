@@ -4,7 +4,6 @@ package Leetcode;
 
 public class LongestPalindromicSubstring {
    public static void main(String[] args) {
-LongestPalindromicSubstring longestPlandromic=new LongestPalindromicSubstring();
    String s="babad";
    longestPlandromic(s);
 }

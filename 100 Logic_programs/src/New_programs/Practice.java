@@ -3,15 +3,14 @@ package New_programs;
 public class Practice {       
     public static void main(String[] args) {
      
-    	int no=17;
-    	int div =2;
-    	boolean prime=true;
-    	for(div=2;div< no;div++) {
-    		if(no%div==0) {
-    			prime =false;
-    			break;
-    		}
+    String str="abcaba";
+    String longest="";
+    for(int i=0;i<str.length();i++) {
+    	for(int j=i+1;j<str.length();j++) {
+    		String sub=str.substring(i,j);  		
+    		longest=sub;
     	}
-    	System.out.println(prime);
+    }
+    System.out.println(longest);
 	}
 }
