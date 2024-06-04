@@ -6,7 +6,7 @@ public class Search_in_Rotated_Sorted_Array {
 
 	public static void main(String[] args) {
 		int arr[]= {4,5,6,6,0,1,2};
-		int target =6;
+		int target =0;
 		 int[] findIndexs=findIndex(arr,target);
 		 System.out.println("index.."+Arrays.toString(findIndexs));
 
